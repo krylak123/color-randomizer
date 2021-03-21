@@ -62,6 +62,10 @@ body {
                 0 0 25px 10px lightblue,
                 0 0 30px 12px magenta;
         }
+
+        &:active {
+            background-color: #00f;
+        }
     }
 }
 
