@@ -24,7 +24,7 @@ titleLetters.forEach((letter) => {
 
 //pętla tworząca divy
 for (let i = 0; i < 15; i++) {
-  const divElement = document.createElement('divs');
+  const divElement = document.createElement('div');
   const color = colorRandom();
   divElement.style.backgroundColor = `#${color}`;
   divElement.textContent = `#${color}`;
